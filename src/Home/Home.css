@@ -1,0 +1,7 @@
+.home_drinks {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
