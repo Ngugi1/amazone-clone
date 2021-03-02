@@ -12,9 +12,12 @@ class Drink extends Component {
       <div className="drink_item_price_percentage">
         <div className="drink_item_price">Ksh. 250</div>
       </div>
-      <div className="drink_item_title">Chrome Gin Chrome Gin Chrome Gin Chrome Gin</div>
+      <div className="drink_item_title_percentage">
+        <div className="drink_item_title">Chrome Gin Chrome Gin Chrome Gin Chrome Gin</div>
+        <div className="drink_item_alc_percentage">Alc. 16%</div>
+      </div>
       <div className="drink_item_location">
-        <FontAwesomeIcon icon={faMapMarkerAlt} color="green" />
+        <FontAwesomeIcon icon={faMapMarkerAlt} size="1.5x" color="green" />
         <label className="drink_item_ws_name">Butlers Wines and Spirits  Butlers Wines and Spirits  Butlers Wines and Spirits  Butlers Wines and Spirits  (2km)</label>
       </div>
          <div className="drink_item_deliverly">

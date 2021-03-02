@@ -7,13 +7,12 @@
     border-radius: 12px;
     width: 95%;
     max-width: 350px;
-    justify-content: lefts;
-    padding: px;
+    justify-content: left;
+    padding: 8px;
 }
 
 .drink_item_title {
-    font-weight: bold;
-    font-size: large;
+    font-weight: 500;
     display: flex;
     text-align: left;
     /* text-align-last: left; */
@@ -21,9 +20,11 @@
 }
 
 .drink_item_ws_name {
-    font-size: small;
-    /* font-weight: 500; */
-    padding: 8px;
+    font-size: x-small;
+    text-align: left;
+    text-align-last: left;
+    padding-left: 4px;
+    padding-top: 0px;
 }
 
 .drink_item_price_percentage {
@@ -31,12 +32,20 @@
     padding-left: 8px;
 }
 
+.drink_item_title_percentage {
+    display: flex;
+}
+
+.drink_item_alc_percentage {
+    font-size: x-small;
+    padding: 8px;
+}
+
 .drink_item_price {
     /* width: fit-content; */
     display: flex;
     color: red;
-    font-weight: 900;
-    box-shadow: yellow;
+    font-weight: 300;
     margin-top: 8px;
 }
 
@@ -55,17 +64,23 @@
 }
 
 .drink_item_deliverly {
-    align-items: flex-end;
-    padding: 4px;
+    /* align-items: flex-end; */
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 4px;
+    margin-right: 8px;
 }
 
 .drink_item_deliverly>button {
     background-color: yellow;
     color: black;
     font-weight: bolder;
+    margin-right: 0px;
 }
 
 .drink_item_location {
+    display: flex;
     padding-left: 8px;
 }
 
