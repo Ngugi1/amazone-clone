@@ -5,7 +5,7 @@ class Home extends Component {
   state = {  }
   render() { 
     return (
-    <div className="home_drinks">
+    <div className="home_drinks container">
       <Drink />
       <Drink />
       <Drink />

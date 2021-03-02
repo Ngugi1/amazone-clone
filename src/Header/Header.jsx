@@ -9,7 +9,7 @@ class Header extends Component {
             <div className="header">
                 <div className="header_logo_container">
                     <FontAwesomeIcon icon={faBeer} size="2x" color="green" pull="left" transform={{ rotate: 200 }}/>
-                    <FontAwesomeIcon icon={faBeer} size="2x" color="pink" transform={{ rotate: -20 }}/>
+                    <FontAwesomeIcon icon={faBeer} size="2x" color="darkgray" transform={{ rotate: -20 }}/>
                     <span className="header_app_name">mgema.digital</span>
 
                 </div>
