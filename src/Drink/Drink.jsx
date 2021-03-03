@@ -9,15 +9,17 @@ class Drink extends Component {
       <div className="drink_item_image">
         <img src="https://www.eabl.com/sites/default/files/brands-images/chrome_2.png" alt="" height="250px" width="250px"/>
       </div>
+
       <div className="drink_item_price_percentage">
         <div className="drink_item_price">Ksh. 250</div>
+        <span className="badge badge-pill badge-secondary badge_custom"> Alc. 16%</span>
+
       </div>
       <div className="drink_item_title_percentage">
         <div className="drink_item_title">Chrome Gin Chrome Gin Chrome Gin Chrome Gin</div>
-        <div className="drink_item_alc_percentage">Alc. 16%</div>
       </div>
       <div className="drink_item_location">
-        <FontAwesomeIcon icon={faMapMarkerAlt} size="1.5x" color="green" />
+        <FontAwesomeIcon icon={faMapMarkerAlt}  color="lightgray" />
         <label className="drink_item_ws_name">Butlers Wines and Spirits  Butlers Wines and Spirits  Butlers Wines and Spirits  Butlers Wines and Spirits  (2km)</label>
       </div>
          <div className="drink_item_deliverly">

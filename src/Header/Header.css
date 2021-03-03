@@ -37,17 +37,17 @@
 .header_search_input {
     display: flex;
     width: inherit;
-    height: 24px;
-    padding: 4px;
+    height: 34px;
+    padding: 8px;
+    margin-top: 8px;
     border-width: 4px;
-    /* border-radius: 8px; */
     border-color: transparent;
-    /* background-color: yellow; */
 }
 
 .header_search_button {
     height: 34px;
     margin-left: 0px;
-    padding: 4px;
-    background-color: green;
+    margin-top: 8px;
+    padding: 8px;
+    background-color: white;
 }

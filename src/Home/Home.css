@@ -4,4 +4,6 @@
     align-items: left;
     /* flex-direction: column; */
     flex-wrap: wrap;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }

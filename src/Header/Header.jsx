@@ -8,14 +8,14 @@ class Header extends Component {
         return (
             <div className="header">
                 <div className="header_logo_container">
-                    <FontAwesomeIcon icon={faBeer} size="2x" color="green" pull="left" transform={{ rotate: 200 }}/>
-                    <FontAwesomeIcon icon={faBeer} size="2x" color="darkgray" transform={{ rotate: -20 }}/>
+                    <FontAwesomeIcon icon={faBeer} size="2x" color="gray" pull="left" transform={{ rotate: 200 }}/>
+                    <FontAwesomeIcon icon={faBeer} size="2x" color="gray" transform={{ rotate: -20 }}/>
                     <span className="header_app_name">mgema.digital</span>
 
                 </div>
                 <div className="header_search">
                     <input className="header_search_input" type="text" placeholder="Which drink should be delivered?" />
-                    <FontAwesomeIcon icon={faSearch} color="black" className="header_search_button" />
+                    <FontAwesomeIcon icon={faSearch} size="2x" color="black" className="header_search_button" />
                 </div>
             </div>
         );
